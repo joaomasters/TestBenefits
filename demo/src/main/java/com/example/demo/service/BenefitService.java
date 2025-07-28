@@ -1,6 +1,7 @@
 package com.example.demo.service;
-import com.seuusuario.beneficiosapi.domain.model.Benefit;
-import com.seuusuario.beneficiosapi.repository.BenefitRepository;
+
+import com.example.demo.model.Benefit;
+import com.example.demo.repository.BenefitRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

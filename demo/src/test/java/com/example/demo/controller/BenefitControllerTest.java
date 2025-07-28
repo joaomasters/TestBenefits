@@ -2,8 +2,9 @@ package com.example.demo.controller;
 
 
 import com.example.demo.controller.BenefitController;
+import com.example.demo.service.BenefitService;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.seuusuario.beneficiosapi.domain.model.Benefit;
+import com.example.demo.model.Benefit;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -21,7 +22,7 @@ public class BenefitControllerTest {
     private MockMvc mockMvc;
 
     @MockBean
-    private com.beneficiosapi.controller.service.BenefitService service;
+    private BenefitService service;
 
     @Autowired
     private ObjectMapper objectMapper;
