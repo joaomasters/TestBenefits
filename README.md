@@ -25,7 +25,7 @@ A API permite:
 - H2 Database
 - Lombok
 - Gradle
-- JUnit 5 + MockMvc (opcional)
+- JUnit 5 + MockMvc
 
 ---
 
