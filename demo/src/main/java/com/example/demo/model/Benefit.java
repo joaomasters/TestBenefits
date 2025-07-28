@@ -1,4 +1,4 @@
-package com.seuusuario.beneficiosapi.domain.model;
+package com.example.demo.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;

@@ -1,5 +1,4 @@
-package com.seuusuario.beneficiosapi.service;
-
+package com.example.demo.service;
 import com.seuusuario.beneficiosapi.domain.model.Benefit;
 import com.seuusuario.beneficiosapi.repository.BenefitRepository;
 import lombok.RequiredArgsConstructor;

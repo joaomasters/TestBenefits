@@ -1,12 +1,15 @@
-package com.seuusuario.beneficiosapi.controller;
+package com.example.demo.controller;
 
 import com.seuusuario.beneficiosapi.domain.model.Benefit;
-import com.seuusuario.beneficiosapi.service.BenefitService;
+
+import com.seuusuario.beneficiosapi.domain.model.Benefit;
+import com.beneficiosapi.controller.service.BenefitServic.BenefitService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.List;
 
 @RestController
@@ -14,7 +17,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class BenefitController {
 
-    private final BenefitService service;
+    private final com.beneficiosapi.controller.service.BenefitService service;
 
     @GetMapping
     public List<Benefit> listar() {
