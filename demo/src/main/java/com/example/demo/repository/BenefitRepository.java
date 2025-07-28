@@ -1,6 +1,6 @@
-package com.seuusuario.beneficiosapi.repository;
+package com.example.demo.repository;
 
-import com.seuusuario.beneficiosapi.domain.model.Benefit;
+import com.example.demo.model.Benefit;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BenefitRepository extends JpaRepository<Benefit, Long> {}

@@ -1,7 +1,7 @@
-package com.seuusuario.beneficiosapi.controller;
+package com.example.demo.controller;
 
-import com.seuusuario.beneficiosapi.domain.model.Benefit;
-import com.seuusuario.beneficiosapi.service.BenefitService;
+import com.example.demo.model.Benefit;
+import com.example.demo.service.BenefitService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

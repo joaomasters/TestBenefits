@@ -1,14 +1,15 @@
-package com.seuusuario.beneficiosapi.controller;
+package com.example.demo.controller;
 
+
+import com.example.demo.controller.BenefitController;
+import com.example.demo.service.BenefitService;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.seuusuario.beneficiosapi.domain.model.Benefit;
+import com.example.demo.model.Benefit;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.web.servlet.MockMvc;
-
-import com.seuusuario.beneficiosapi.service.BenefitService;
 
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
