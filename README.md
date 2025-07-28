@@ -1,4 +1,4 @@
-# 🧾 Benefícios API
+# Benefícios API
 
 Esta aplicação é uma API REST construída com **Java 17 + Spring Boot** para o gerenciamento de benefícios. Foi desenvolvida como parte de um desafio técnico com foco em boas práticas, Clean Code e uso de tecnologias modernas.
 
